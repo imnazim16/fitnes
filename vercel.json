@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "./dist/client/index.html"
+    }
+  ],
+  "server": {
+    "port": 5173,
+    "initial_time": 500
+  },
+  "ssr": {
+    "enabled": true
+  }
+}
