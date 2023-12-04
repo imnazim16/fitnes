@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "./dist/client/index.html"
     }
   ],
@@ -9,6 +9,9 @@
     "port": 5173,
     "initial_time": 500
   },
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
   "ssr": {
     "enabled": true
   }
